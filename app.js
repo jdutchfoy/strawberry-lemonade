@@ -1,11 +1,24 @@
 'use strict'
 
 
-let allergies =prompt("Any allergies")
-alert(allergies)
-alert (allergies)
-allergies
-let allergies2 =prompt("Any allergies")
-alert(allergies2)
 let thirst =prompt("Are you thirsty")
 alert(thirst)
+let allergies =prompt("Any allergies")
+alert(allergies)
+
+let today = new Date();
+let hour = today.getHours()
+// let hour = 1 
+console.log(hour)
+
+let greeting;
+
+if (hour > 17){
+ greeting = "Good evening"   
+} else {
+    greeting = "Hello world"
+}
+
+console.log(greeting)
+
+document.write("<h3>" + greeting + "</h3>")
