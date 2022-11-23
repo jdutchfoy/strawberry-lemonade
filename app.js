@@ -1,10 +1,21 @@
 'use strict'
 
 
-let thirst =prompt("Are you thirsty")
-alert(thirst)
-let allergies =prompt("Any allergies")
-alert(allergies)
+// alert(thirst)
+// let allergies =prompt("Any allergies")
+// alert(allergies)
+
+function message(){
+    let thirst =prompt("Are you thirsty")
+    if (thirst==="yes"){
+        alert ("let's get you some lemonade")
+    } else{
+        alert ("invalid input try again")
+        message()
+    }
+}
+message()
+
 
 let today = new Date();
 let hour = today.getHours()
@@ -13,12 +24,19 @@ console.log(hour)
 
 let greeting;
 
-if (hour > 17){
- greeting = "Good evening"   
-} else {
-    greeting = "Hello world"
+
+function welcome(){
+
+    if (hour > 17){
+     return greeting = "Good evening"   
+    } else {
+     return  greeting = "Hello world"
+    }
 }
 
-console.log(greeting)
+welcome()
+
+
+console.log(welcome())
 
 document.write("<h3>" + greeting + "</h3>")
