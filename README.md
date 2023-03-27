@@ -1,11 +1,10 @@
 #README.md
 
-###Dutchs Famous Strawberry Lemonade
+### Dutchs Famous Strawberry Lemonade
 
+## Welcome to the README for Dutch's Famous Strawberry Lemonade Website! This website was created as part of a coding project to showcase my skills as a novice junior software developer.
 
-##Welcome to the README for Dutch's Famous Strawberry Lemonade Website! This website was created as part of a coding project to showcase my skills as a novice junior software developer.
-
-##Dutch’s Famous Strawberry Lemonade is a website that provides information about a refreshing drink enjoyed by many. I have included a brief introduction about the drink, its recipe, and alternative ingredients. 
+## Dutch’s Famous Strawberry Lemonade is a website that provides information about a refreshing drink enjoyed by many. I have included a brief introduction about the drink, its recipe, and alternative ingredients. 
 
 **Evolution of the Code**
 
@@ -81,12 +80,5 @@ HTML
 CSS
 JavaScript
 
-**Installation**
-
-To install this website, simply download the code from the GitHub repository and open the index.html file in a web browser.
-Usage
-The Dutch's Famous Strawberry Lemonade Website can be used to learn more about this popular Dutch drink. Additionally, this project can be used as a starting point for further development, such as adding more pages or functionality to the website.
-Credits
-This project was created by [Your Name], a novice junior software developer.
-License
+Project was created by [dutchFoy], student junior software developer.
 This project is licensed under the MIT License.
