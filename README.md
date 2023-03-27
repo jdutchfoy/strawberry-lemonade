@@ -4,7 +4,7 @@
 
 ## Welcome to the README for Dutch's Famous Strawberry Lemonade Website! This website was created as part of a coding project to showcase my skills as a novice junior software developer.
 
-## Dutch’s Famous Strawberry Lemonade is a website that provides information about a refreshing drink enjoyed by many. I have included a brief introduction about the drink, its recipe, and alternative ingredients. 
+## Dutch’s Famous Strawberry Lemonade is a website that provides information about a refreshing drink enjoyed by many. I have included a brief introduction about the drink, its recipe, and alternative ingredients.
 
 **Evolution of the Code**
 
@@ -28,7 +28,7 @@ This project started as my very first webpage ever November 27,2022! The initial
     </header>
 
     <main>
-      <p><a href="app.js"> 
+      <p><a href="app.js">
 
       </a>
     </p>
@@ -36,7 +36,7 @@ This project started as my very first webpage ever November 27,2022! The initial
       <section>
       <img
           src="https://images.unsplash.com/photo-1549007953-2f2dc0b24019?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNsaWNlZCUyMHN0cmF3YmVycmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt="Fresh sliced strawberries" 
+          alt="Fresh sliced strawberries"
           width="200"
           height="300"/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -69,10 +69,10 @@ This project started as my very first webpage ever November 27,2022! The initial
     <footer>
       <p>© Dutch Foy 102d45</p>
     </footer>
+
   </body>
 
 </html>
-
 
 **Technologies Used**
 
