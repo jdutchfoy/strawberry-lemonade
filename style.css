@@ -1,81 +1,25 @@
 body {
   font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
   margin: 0;
   padding: 0;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #f39c12;
-}
-
-/* sauce up the header */
 
 header {
-  background-color: #fdcbf1;
-  padding: 20px;
-}
-
-header h1 {
-  color: #e84393;
-  font-size: 36px;
-  margin: 0;
-  padding: 0;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-/* sauce up the main content */
-
-main {
-  background-color: #ffeaa7;
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-section img {
-  display: block;
-  margin: 0 auto;
-  border: 5px solid #f1c40f;
-}
-
-section p {
-  margin-top: 10px;
-}
-
-h3 {
-  color: #e17055;
-  margin-bottom: 10px;
-}
-
-/* sauce up the footer */
-
-footer {
-  background-color: #fdcbf1;
+  background-color: #ff69b4;
+  color: white;
   padding: 20px;
   text-align: center;
 }
 
-footer p {
+header h1 {
   margin: 0;
-  padding: 0;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav a {}
+/*make it saucey
