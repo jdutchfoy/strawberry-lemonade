@@ -1,84 +1,26 @@
-#README.md
+# README.md
 
-### Dutchs Famous Strawberry Lemonade
+## Dutch's Famous Strawberry Lemonade
 
-## Welcome to the README for Dutch's Famous Strawberry Lemonade Website! This website was created as part of a coding project to showcase my skills as a novice junior software developer.
+Welcome to the README for Dutch's Famous Strawberry Lemonade Website! This website showcases a refreshing drink enjoyed by many. It provides information about the drink, its recipe, and alternative ingredients.
 
-## Dutch’s Famous Strawberry Lemonade is a website that provides information about a refreshing drink enjoyed by many. I have included a brief introduction about the drink, its recipe, and alternative ingredients.
+## Evolution of the Code
 
-**Evolution of the Code**
+This project started as my very first webpage ever on November 27, 2022! The initial version of the website was created with HTML only and had a basic layout. Over time, I added styling to the page using CSS, including a color scheme that complemented the content. Finally, I added JavaScript to create interactivity on the website, such as a pop-up window when the "Recipes" button is clicked. It's amazing to see how far I've come since then.
 
-This project started as my very first webpage ever November 27,2022! The initial version of the website was created with HTML only and had a basic layout. Over time, I added styling to the page using CSS, including a color scheme that complemented the content. Finally, I added JavaScript to create interactivity on the website, including a pop-up window when the "Recipes" button is clicked( Took a while but I got it). It’s nice to see how far I have come when I am the sunken place in a current school lab. Original code:
+## Technologies Used
 
-<!DOCTYPE html>
-<html>
+- HTML
+- CSS
+- JavaScript
 
-<head>
-  <title>First Page Ever</title>
-  <link rel="stylesheet" href="LemonadePage.css">
-  <script src="app.js"></script>
-</head>
+## Project Details
 
-  <body>
-    <header>
-      <h1>Dutchs Strawberry Lemonade</h1>
-      <nav>
-        <a href="https://www.imdb.com/title/tt1815377/">Link 1</a>
-      </nav>
-    </header>
+- Created by: [dutchFoy](https://github.com/jdutchFoy)
+- Student Junior Software Developer
 
-    <main>
-      <p><a href="app.js">
+## License
 
-      </a>
-    </p>
+This project is licensed under the [MIT License](LICENSE).
 
-      <section>
-      <img
-          src="https://images.unsplash.com/photo-1549007953-2f2dc0b24019?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNsaWNlZCUyMHN0cmF3YmVycmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt="Fresh sliced strawberries"
-          width="200"
-          height="300"/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
-      </section>
-
-      <section>
-        <h3>Recipes</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur</p>
-      </section>
-
-      <section>
-        <h3>Alternative ingriedients</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur</p>
-      </section>
-    </main>
-
-
-    <footer>
-      <p>© Dutch Foy 102d45</p>
-    </footer>
-
-  </body>
-
-</html>
-
-**Technologies Used**
-
-HTML
-CSS
-JavaScript
-
-Project was created by [dutchFoy], student junior software developer.
-This project is licensed under the MIT License.
+Feel free to explore the website and enjoy Dutch's Famous Strawberry Lemonade!
