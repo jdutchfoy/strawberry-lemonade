@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafdf6;
+}
+
+header {
+  background-color: #edafb8;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #eeefa8;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #edafb8;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #e8ddb5;
+}
+
+main {
+  margin: 20px;
+}
+
+h1 {
+  color: #edafb8;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#products-section .product-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#recipes-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+#recipes-section li {
+  margin-bottom: 20px;
+}
+
+#recipes-section h3 {
+  color: #edafb8;
+}
+
+#recipes-section p {
+  color: #333;
+}
+
+#recipes-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #edafb8;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
