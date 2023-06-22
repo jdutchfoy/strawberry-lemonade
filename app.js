@@ -1,53 +1,60 @@
-'use strict'
-
-
-// alert(thirst)
-// let allergies =prompt("Any allergies")
-// alert(allergies)
-
-function message(){
-    let thirst =prompt("Are you thirsty")
-    if (thirst==="yes"){
-        alert ("let's get you some lemonade")
-    } else{
-        alert ("invalid input try again")
-        message()
-    }
-}
-// message()
-
-function imgRendered(){
-    let q =prompt("how many glasses of lemonade")
-    for (let i = 0; i < q; i++){
-        console.log("this is the value of q", q)
-        console.log("this is the value of i", i)
-
-        document.write("<img src='https://images.unsplash.com/photo-1549007953-2f2dc0b24019?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNsaWNlZCUyMHN0cmF3YmVycmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60' alt='Fresh sliced strawberries' width='200'       height='300'/>")
-    }
-}
-imgRendered()
-
-
-let today = new Date();
-let hour = today.getHours()
-// let hour = 1 
-console.log(hour)
-
-let greeting;
-
-
-function welcome(){
-
-    if (hour > 17){
-     return greeting = "Good evening"   
+document.addEventListener('DOMContentLoaded', function() {
+    var form = document.querySelector('form');
+  
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+  
+      var nameInput = document.querySelector('#name-input');
+      var emailInput = document.querySelector('#email-input');
+      var messageInput = document.querySelector('#message-input');
+  
+      var name = nameInput.value;
+      var email = emailInput.value;
+      var message = messageInput.value;
+  
+      if (name === '' || email === '' || message === '') {
+        alert('Please fill in all fields.');
+      } else {
+        // Perform form submission logic here
+        alert('Form submitted successfully!');
+        form.reset();
+      }
+    });
+  });
+  
+  function message() {
+    let thirst = prompt("Are you thirsty?");
+    if (thirst === "yes") {
+      alert("Let's get you some lemonade");
     } else {
-     return  greeting = "Hello world"
+      alert("Invalid input. Try again.");
+      message();
     }
-}
-
-welcome()
-
-
-console.log(welcome())
-
-document.write("<h3>" + greeting + "</h3>")
+  }
+  
+  function imgRendered() {
+    let q = prompt("How many glasses of lemonade?");
+    for (let i = 0; i < q; i++) {
+      document.write("<img src='https://example.com/lemonade.jpg' alt='Fresh sliced strawberries' width='200' height='300'/>");
+    }
+  }
+  
+  function welcome() {
+    let today = new Date();
+    let hour = today.getHours();
+    let greeting;
+  
+    if (hour > 17) {
+      greeting = "Good evening. Welcome to Dutch's Famous Strawberry Lemonade!";
+    } else {
+      greeting = "Hello. Welcome to Dutch's Famous Strawberry Lemonade!";
+    }
+  
+    return greeting;
+  }
+  
+  message();
+  imgRendered();
+  console.log(welcome());
+  document.write("<h3>" + welcome() + "</h3>");
+  
