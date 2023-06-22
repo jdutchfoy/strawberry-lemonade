@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README.md
 
 ## Dutch's Famous Strawberry Lemonade
@@ -24,3 +25,7 @@ This project started as my very first webpage ever on November 27, 2022! The ini
 This project is licensed under the [MIT License](LICENSE).
 
 Feel free to explore the website and enjoy Dutch's Famous Strawberry Lemonade!
+=======
+# Helloworldagain
+second
+>>>>>>> origin/main
